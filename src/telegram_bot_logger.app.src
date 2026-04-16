@@ -1,0 +1,16 @@
+{application, telegram_bot_logger, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {telegram_bot_logger_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        telegram_bot_api,
+        logger_telegram_h
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.
